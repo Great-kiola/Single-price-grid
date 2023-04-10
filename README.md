@@ -1,6 +1,6 @@
 # Single-price-grid
 
-# Overview
+## Overview
 
 ### The challenge
 Users should be able to:
