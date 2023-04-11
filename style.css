@@ -1,10 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Karla", sans-serif;
+  background-color: var(--LightGray);
+  font-size: var(--Font-size);
+  color: white;
+}
+
+.container{
+  width: 900px;
+}
+
+.firstContainer{
+  background-color: var(--firstCon);
+  padding: 50px;
+  border-radius: 10px 10px 0px 0px;
+  color: var(--Cyan);
+}
+
+.sepContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.secondContainer{
+  background-color: var(--Cyan);
+  padding: 50px;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.thirdContainer{
+  background-color: #4ABEBD;
+  padding: 50px;
+  border-radius: 0px 0px 10px 0px;
+}
+
+
+.btn{
+  padding: 15px 50px;
+  background-color: var(--BrightYellow);
+  border: none;
+  color: white;
+  box-shadow: 10px 10px 20px var(--GrayishBlue);  
+}
+
+:root {
+  --Cyan: hsl(179, 65%, 41%);
+  --BrightYellow: hsl(71, 73%, 54%);
+  --LightGray: hsl(204, 43%, 93%);
+  --GrayishBlue: hsl(218, 22%, 67%);
+  --Font-size: 16px;
+  --firstCon: hsl(0, 0%, 100%);
+}
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
