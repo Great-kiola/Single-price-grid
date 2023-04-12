@@ -16,46 +16,98 @@ body {
   flex-direction: column;
   font-family: "Karla", sans-serif;
   background-color: var(--LightGray);
-  font-size: var(--Font-size);
   color: white;
 }
 
-.container{
-  width: 900px;
+h1 {
+  font-size: 20px;
+  margin: 10px auto;
 }
 
-.firstContainer{
+.mainContainer {
+  margin: 10px;
+}
+
+p {
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+p.para {
+  color: var(--BrightYellow);
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 15px;
+  color: hsl(201, 13%, 74%);
+}
+
+p.tutorials {
+  color: #73e8e6;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.container {
+  width: 950px;
+}
+
+.firstContainer {
   background-color: var(--firstCon);
   padding: 50px;
   border-radius: 10px 10px 0px 0px;
   color: var(--Cyan);
 }
 
-.sepContainer{
+.sepContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
 }
 
-.secondContainer{
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+ul li.number {
+  font-size: 39px;
+  font-weight: 700;
+}
+
+li {
+  margin: 3px;
+}
+
+.secondContainer {
   background-color: var(--Cyan);
-  padding: 50px;
+  padding: 80px 70px 80px 50px;
   border-radius: 0px 0px 0px 10px;
 }
 
-.thirdContainer{
-  background-color: #4ABEBD;
-  padding: 50px;
+.thirdContainer {
+  background-color: #4abebd;
+  padding: 80px 95px 80px 50px;
   border-radius: 0px 0px 10px 0px;
 }
 
-
-.btn{
-  padding: 15px 50px;
+.btn {
+  padding: 20px 50px;
+  width: 100%;
   background-color: var(--BrightYellow);
   border: none;
+  border-radius: 5px;
   color: white;
-  box-shadow: 10px 10px 20px var(--GrayishBlue);  
+  box-shadow: 10px 10px 20px hsl(179, 65%, 37%);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--LightGray);
+  color: black;
 }
 
 :root {
@@ -63,15 +115,16 @@ body {
   --BrightYellow: hsl(71, 73%, 54%);
   --LightGray: hsl(204, 43%, 93%);
   --GrayishBlue: hsl(218, 22%, 67%);
-  --Font-size: 16px;
+  --Font-size: 15px;
   --firstCon: hsl(0, 0%, 100%);
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--Cyan);
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--GrayishBlue);
 }
