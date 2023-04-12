@@ -51,7 +51,7 @@ p.tutorials {
 }
 
 .container {
-  width: 950px;
+  width: 800px;
 }
 
 .firstContainer {
@@ -83,7 +83,7 @@ li {
 
 .secondContainer {
   background-color: var(--Cyan);
-  padding: 80px 70px 80px 50px;
+  padding: 50px 20px 50px 30px;
   border-radius: 0px 0px 0px 10px;
 }
 
