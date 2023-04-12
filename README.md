@@ -1,4 +1,9 @@
 # Single-price-grid
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+### Screenshot
+
+<img width="1152" alt="image" src="https://user-images.githubusercontent.com/117322790/231502862-6d0b6e46-a8ed-4a0e-bb47-1cf4712ac6a3.png">
 
 ## Overview
 
@@ -8,14 +13,10 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 - See a hover state on desktop for the Sign Up call-to-action
 
-### Screenshot
-
-![](./screenshot.jpg)
 
 ### Links
-
-- Solution URL: [ Solution URL](https://your-solution-url.com)
-- Live Site URL: [ Live site URL ](https://your-live-site-url.com)
+- [ Solution URL](https://your-solution-url.com)
+- [ Live site URL ](https://your-live-site-url.com)
 
 ### Built with
 
@@ -35,5 +36,4 @@ Use this section to recap over some of your major learnings while working throug
 - Frontend Mentor - [@great-kiola](https://www.frontendmentor.io/profile/Great-kiola)
 
 ### Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Frontend mentor.io
